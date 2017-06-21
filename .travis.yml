@@ -8,4 +8,5 @@ branches:
   only:
   - master
 script:
-  ./gradlew build
+- chmod +x gradlew
+- ./gradlew build
