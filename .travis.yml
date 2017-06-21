@@ -1,0 +1,11 @@
+language: java
+install: true
+git:
+  submodules: false
+  lfs_skip_smudge: true
+# safelist
+branches:
+  only:
+  - master
+script:
+  ./gradlew build
